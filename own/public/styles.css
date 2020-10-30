@@ -66,6 +66,7 @@ input[type='checkbox'] {
 .todo-app__input::placeholder {
     font-weight: 100;
     opacity: 0.6;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .todo-app__main {
@@ -81,6 +82,7 @@ input[type='checkbox'] {
     overflow: scroll;
 }
 
+/* todo list item */
 .todo-app__item {
     position: relative;
     width: 100%;
@@ -123,6 +125,8 @@ input[type='checkbox'] {
 .todo-app__checkbox input[type='checkbox']:checked + label {
     background: #26ca299b;
 }
+
+
 
 .todo-app__item-detail {
     font-weight: 300;

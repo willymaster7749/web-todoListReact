@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // import './index.css';
-import TodoApp from "./containers/TodoApp";
+import { TodoApp } from "./containers/TodoApp";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
